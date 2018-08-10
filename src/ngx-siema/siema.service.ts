@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs/Observable';
-import { BehaviorSubject } from 'rxjs/BehaviorSubject';
-import { ReplaySubject } from 'rxjs/ReplaySubject';
-import 'rxjs/add/operator/publish';
+import { Observable } from 'rxjs';
+import { BehaviorSubject } from 'rxjs';
+import { ReplaySubject } from 'rxjs';
+import { publish } from 'rxjs/operators';
 
 const next$ = new ReplaySubject(1);
 const prev$ = new ReplaySubject(1);

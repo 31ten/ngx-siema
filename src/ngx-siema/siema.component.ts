@@ -1,6 +1,6 @@
 import { Component, Input, Output, EventEmitter, AfterViewInit, OnInit, OnDestroy } from '@angular/core';
-import { Subscription } from 'rxjs/Subscription';
-import { BehaviorSubject } from 'rxjs/BehaviorSubject';
+import { Subscription } from 'rxjs';
+import { BehaviorSubject } from 'rxjs';
 import Siema from 'siema';
 
 import { NgxSiemaService } from './siema.service';
